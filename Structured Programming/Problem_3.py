@@ -12,7 +12,7 @@ def main():
     list_of_squares = [1, 4, 9, 16, 25, 36]
     coins = random.randint(50, 100)   #select a random number of tokens between 50 & 100 
     print("Welcome to Subtract a square NIM")
-    print("\nRules: \n-> Chose ONLY square number\n-> Maximum number is 36\n-> First to 0 wins\n")
+    print("\nRules: \n-> Choose ONLY square number\n-> Maximum number is 36\n-> First to 0 wins\n")
 
     print("Initial number of tokens: " + str(coins) )
 
