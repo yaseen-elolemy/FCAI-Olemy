@@ -23,7 +23,7 @@ def main():
         else:
             coins -= player1
             print("Number of coins "+ str(coins) + '\n')
-        if(coins == 0):
+        if(coins <= 0):
             print("Player 1 WON!!!")
             break
         
@@ -32,7 +32,7 @@ def main():
             print("Please read the Rules again")
         else:
             coins -= player2
-        if(coins == 0):
+        if(coins <= 0):
             print("Player 2 WON!!!")
             break
 
